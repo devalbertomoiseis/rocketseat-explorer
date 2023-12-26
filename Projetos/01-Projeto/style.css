@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=JetBrains+Mono:wght@100;200;300&family=Open+Sans:ital@1&display=swap");
+
+/*
+font-family: 'Fira Code', monospace;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+  /*Seletores*/
+  /*Propriedades*/
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span,
+a {
+  color: #ff9900;
+}
+
+p {
+  color: #7d7987;
+
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+  border: 1px solid #ff99007e;
+  margin: 0 auto 14px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 120px;
+  right: 100px;
+}
