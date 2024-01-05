@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;1,200&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+/*
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f2e41;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 70px 2%;
+}
+
+@media (max-width: 1000px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header ul {
+    margin: 20px;
+  }
+}
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+header ul li a {
+  color: #fff;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+header ul li a .active {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 70px;
+}
+
+main .div1 {
+  flex: 1;
+  margin-right: 160px;
+}
+
+main .div2 {
+  flex: 2;
+  margin: 0 20px;
+}
+
+main div h1 {
+  color: #fff;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+main div h1 span {
+  color: #00bfa6;
+}
+
+main div p {
+  color: #c2c2c2;
+  width: 604px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 59px;
+}
+
+main div p .strong-cor {
+  color: #00bfa6;
+}
+
+@media (max-width: 1000px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 autos;
+  }
+
+  main .div1 {
+    flex: 1;
+    margin-right: 40px;
+  }
+
+  main .div2 {
+    flex: 2;
+    margin: 0 20px;
+  }
+  main div p {
+    width: 400px;
+    margin: 20px auto;
+  }
+}
+footer {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.div {
+  width: 568.001px;
+  height: 1px;
+  background: #00bfa6;
+  margin: 40px auto 0 auto;
+}
+
+footer p {
+  color: #fff;
+
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#balls {
+  position: fixed;
+  left: 300px;
+  margin-top: -20px;
+}
+
+@media (max-width: 1000px) {
+  .div {
+    width: 60%;
+    height: 1px;
+    background: #00bfa6;
+    margin: 0 auto;
+  }
+}
