@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+/*
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1f1534;
+  opacity: 0.5;
+}
+
+ul li a.active {
+  color: #120c1f;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #000000;
+  font-weight: normal;
+  width: 490px;
+  margin-bottom: 40px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+.text {
+  padding: 40px 0;
+}
+
+.text p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin-bottom: 30px;
+}
+
+.text p strong {
+  color: #7d7987;
+}
+
+button {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+
+  background: #69b99d;
+  border: 0;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+button:hover {
+  background: #54a388;
+  transition: 0.6s;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  top: 700px;
+  bottom: 0;
+  right: 0;
+}
