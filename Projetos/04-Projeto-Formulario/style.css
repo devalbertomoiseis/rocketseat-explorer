@@ -10,7 +10,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
 .page {
   width: 736px;
   margin: auto;
@@ -28,6 +34,7 @@ header h1 {
   font-weight: 700;
   line-height: 42px;
   color: #fff;
+  margin-bottom: 24px;
 }
 
 header p {
@@ -68,6 +75,11 @@ form {
 fieldset {
   border: none;
 }
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
 fieldset legend {
   font-family: "Archivo";
@@ -78,4 +90,35 @@ fieldset legend {
   width: 100%;
   border-bottom: 1px solid #e6e6f0;
   padding-bottom: 16px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8pxs;
+}
+
+.input-wrapper label span {
+  color: #c1bccc;
+  font-size: 14px;
+  margin-left: 12px;
+  line-height: 20px;
+}
+
+.input-wrapper input {
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+
+  font-size: 16px;
+  line-height: 26px;
+  height: 56px;
+  padding: 24px;
+  color: #c1bccc;
 }

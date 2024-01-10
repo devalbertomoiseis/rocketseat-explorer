@@ -20,7 +20,21 @@
       </header>
       <form action="" method="POST">
         <fieldset>
-          <legend>Informações do Evento</legend>
+          <div class="fieldset-wrapper">
+            <legend>Informações do Evento</legend>
+            <div class="input-wrapper">
+              <label for="event-title">
+                Título do evento <span>(mínimo 8 caracteres)</span>
+              </label>
+              <input type="text" id="event-title" />
+            </div>
+            <div class="input-wrapper">
+              <label for="event-link">
+                Link do Evento <span>(comece com https://)</span>
+              </label>
+              <input type="text" id="event-link" />
+            </div>
+          </div>
         </fieldset>
       </form>
     </div>
