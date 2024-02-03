@@ -1,0 +1,11 @@
+#app {
+  display: grid;
+  grid-template-rows: 200px 1fr 2fr 1fr 2fr 2fr;
+}
+#app > div {
+  border: 1px solid rgb(202, 40, 40);
+}
+
+/*
+
+*/
